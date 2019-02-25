@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset-"UTF-8">
+    <title>Sample Form</title>
+    <style>
+    input{
+      display: block;
+    }
+
+    input:focus{
+      background: yellow;
+    }
+    </style>
+</head>
+<body>
+<form method="POST" action="https://formspree.io/sammbrow@umich.edu">
+  <fieldset>
+		<legend>Personal Information:</legend>
+      <label for = "name">Name:</label>
+      <input type="text" id="name" value="Sam"><br/>
+      <label for = "name">Email:</label>
+      <input type="text" id="email" name="email" placeholder="email@abc.com"><br/>
+      <label for = "birth">DOB:</label>
+      <input type="date" id="birth" placeholder="mm/dd/yyy"><br/>
+      <input type="color" placeholder="color!"><br/>
+      <label for = "name">URL:</label><br/>
+      <input type="url" placebolder="samanthabrown.xyz">
+      <input type="submit" value="clickme">
+    </fieldset>
+</form>
+
+<h1>show checkboxes</h1>
+<form action="/action_page.php">
+  <iput type="checkbox" name="vehicle" value="bike"> i have a bike<br>
+  <iput type="checkbox" name="vehicle" value="bike"> i have a bike<br>
+  <iput type="checkbox" name="vehicle" value="bike"> i have a bike<br>
+  <input type="submit" value="submit">
+</form>
+
+</body>
+
+
+</html>
